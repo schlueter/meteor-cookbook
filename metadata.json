@@ -1,0 +1,38 @@
+{
+  "name": "meteor",
+  "description": "Installs Meteor -  a radical javascript/node.js web development framework",
+  "long_description": "Installs Meteor, an open-source platform for building top-quality, real-time web apps in a fraction of the time.\nSee http://meteor.com for more information.\n",
+  "maintainer": "David Knell",
+  "maintainer_email": "dk45@mac.com",
+  "license": "Apache 2.0",
+  "platforms": {
+    "ubuntu": ">= 9.10",
+    "debian": ">= 5.0",
+    "openbsd": ">= 0.0.0",
+    "freebsd": ">= 0.0.0"
+  },
+  "dependencies": {
+    "apt": ">= 0.0.0",
+    "build-essential": ">= 0.0.0",
+    "nodejs": ">= 0.0.0"
+  },
+  "recommendations": {
+  },
+  "suggestions": {
+  },
+  "conflicting": {
+  },
+  "providing": {
+  },
+  "replacing": {
+  },
+  "attributes": {
+  },
+  "groupings": {
+  },
+  "recipes": {
+    "meteor": "Installs Meteor",
+    "meteor::mongodb": "Installs Mongodb"
+  },
+  "version": "0.1.4"
+}
